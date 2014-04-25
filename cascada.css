@@ -25,6 +25,7 @@ h1{
        z-index: -1;
        padding-left:5%;
        padding-right:5%;
+       color: #aa5d5d
    
        
 } 
@@ -37,6 +38,7 @@ h2{
        margin-top: 65px;
        padding-left:5%;
        padding-right: 5%;
+       color: #aa5d5d
        
 } 
 
@@ -46,8 +48,9 @@ h3{
        font-size: 12px;
        line-height: 32px;
        text-align: right;
-       padding-right: 5%;
-       padding-left: 50%;
+       padding-right: 15%;
+       padding-left: 40%;
+       color: #aa5d5d
 	
 }	
 
@@ -58,6 +61,7 @@ h3{
 	width: 100%;
 	padding-left:0%;
 	padding-right: 0%;
+
 	
 }
 
@@ -74,13 +78,13 @@ h3{
 .cajita1{
     
     position: relative;
-    top: 100px
+    top: 200px
 }
 
 .cajita2{
     
     position: relative;
-    top: 800px
+    top: 900px
 }
 
 .cajita3{
@@ -132,12 +136,31 @@ img{
     
     position: relative;
     top: 100px;
+    z-index: -3;
+   
+}
+.dibujo1a{
+    
+    position: absolute;
+    top: 450px;
+    z-index: -2;
+   
 }
 
 .dibujo2{
     
     position: relative;
     top: 400px;
+     z-index: -3;
+}
+
+.dibujo2a{
+    
+    position: absolute;
+    top: 1300px;
+     z-index: -2;
+     max-width: 400px;
+   
 }
 
 .dibujo3{
@@ -152,28 +175,35 @@ img{
     top: 1000px;
 }
 
+.dibujo4a{
+    
+    position: absolute;
+    top: 2900px;
+     max-width: 600px;
+}
+
 .cita1{
     
     position: relative;
-    top: 900px;
+    top: 400px;
 }
 
 .cita2{
     
     position: relative;
-    top: 1600px;
+    top: 1100px;
 }
 
 .cita3{
     
     position: relative;
-    top: 2100px;
+    top: 1800px;
 }
 
 .cita4{
     
     position: relative;
-    top: 2800px;
+    top: 2500px;
     padding-bottom: 20%;
 }
 	
